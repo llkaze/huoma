@@ -1,3 +1,3 @@
 # huoma
 
-Firefox policies.json and user.js based on BetterFox and arkenfox guide
+Personal firefox policies.json and user.js based on BetterFox and arkenfox guide
