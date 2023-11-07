@@ -1,5 +1,6 @@
 {
     "policies": {
+        "DisableFirefoxAccounts": true,
         "DisableFirefoxStudies":true,
         "DisablePocket": true,
         "HardwareAcceleration": true,
