@@ -16,19 +16,6 @@
         },
         "Extensions": {
             "Install": [
-                "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/betterttv/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/bitwarden-password-manager/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/canvasblocker/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/fastforwardteam/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/onetab/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/open-with/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/search_by_image/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/simple-translate/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/skip-redirect/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/sponsorblock/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/video-downloadhelper/latest.xpi",
-                "https://addons.mozilla.org/firefox/downloads/latest/violentmonkey/latest.xpi",
                 "https://github.com/iamadamdev/bypass-paywalls-chrome/releases/latest/download/bypass-paywalls-firefox.xpi"
             ],
             "Uninstall": [
@@ -37,6 +24,94 @@
                 "ebay@search.mozilla.org",
                 "twitter@search.mozilla.org"
             ]
+        },
+        "ExtensionSettings": {
+            "uBlock0@raymondhill.net": {
+              "installation_mode": "force_installed",
+              "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+            },
+            "{446900e4-71c2-419f-a6a7-df9c091e268b}": {
+              "installation_mode": "force_installed",
+              "install_url": "https://addons.mozilla.org/firefox/downloads/latest/bitwarden-password-manager/latest.xpi"
+            },
+            "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}": {
+                "installation_mode": "force_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/violentmonkey/latest.xpi"
+            },
+            "firefox@betterttv.net": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/betterttv/latest.xpi"
+            },
+            "CanvasBlocker@kkapsner.de": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/canvasblocker/latest.xpi"
+            },
+            "addon@fastforward.team": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/fastforwardteam/latest.xpi"
+            },
+            "extension@one-tab.com": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/onetab/latest.xpi"
+            },
+            "openwith@darktrojan.net": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/open-with/latest.xpi"
+            },
+            "{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/search_by_image/latest.xpi"
+            },
+            "simple-translate@sienori": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/simple-translate/latest.xpi"
+            },
+            "skipredirect@sblask": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/skip-redirect/latest.xpi"
+            },
+            "sponsorBlocker@ajay.app": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/sponsorblock/latest.xpi"
+            },
+            "{b9db16a4-6edc-47ec-a1f4-b86292ed211d}": {
+                "installation_mode": "normal_installed",
+                "install_url": "https://addons.mozilla.org/firefox/downloads/latest/video-downloadhelper/latest.xpi"
+            }
+        },
+        "3rdparty": {
+            "Extensions": {
+                "uBlock0@raymondhill.net": {
+                    "adminSettings": {
+                        "assetsBootstrapLocation": "https://raw.githubusercontent.com/llkaze/huoma/main/ubo/assets.json",
+                        "filters": [
+                            "www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^=\"M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33\"]:upward(ytd-guide-entry-renderer)",
+                            "www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^=\"M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33\"]:upward(ytd-mini-guide-entry-renderer)",
+                            "www.youtube.com##ytd-browse[page-subtype=\"home\"] .ytd-thumbnail[href^=\"/shorts/\"]:upward(ytd-rich-item-renderer)",
+                            "www.youtube.com##ytd-browse[page-subtype=\"subscriptions\"] .ytd-thumbnail[href^=\"/shorts/\"]:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)",
+                            "www.youtube.com##ytd-search .ytd-thumbnail[href^=\"/shorts/\"]:upward(ytd-video-renderer)",
+                            "www.youtube.com##ytd-browse[page-subtype=\"subscriptions\"] ytd-video-renderer .ytd-thumbnail[href^=\"/shorts/\"]:upward(ytd-item-section-renderer)",
+                            "www.youtube.com##ytd-watch-next-secondary-results-renderer .ytd-thumbnail[href^=\"/shorts/\"]:upward(ytd-compact-video-renderer,ytd-shelf-renderer)",
+                            "www.youtube.com##ytd-browse[page-subtype=\"trending\"] .ytd-thumbnail[href^=\"/shorts/\"]:upward(ytd-video-renderer)",
+                            "www.youtube.com##ytd-search .ytd-thumbnail[href^=\"/shorts/\"]:upward(ytd-video-renderer)",
+                            "www.youtube.com##ytd-rich-shelf-renderer[is-shorts]",
+                            "www.youtube.com##ytd-rich-shelf-renderer[is-shorts].ytd-rich-section-renderer:upward(ytd-rich-section-renderer)",
+                            "www.youtube.com##ytd-reel-shelf-renderer",
+                            "m.youtube.com##ytm-reel-shelf-renderer",
+                            "m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)",
+                            "m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style=\"SHORTS\"]:upward(ytm-video-with-context-renderer)",
+                            "m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style=\"SHORTS\"]:upward(ytm-compact-video-renderer)",
+                            "m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style=\"SHORTS\"]:upward(ytm-compact-video-renderer,ytm-video-with-context-renderer)",
+                            "m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(\\/^(0:\\d\\d|1:0\\d)$\\/):upward(ytm-video-with-context-renderer)\n",
+                            "youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)"
+                        ],
+                        "userSettings": {
+                            "advancedUserEnabled": true,
+                            "dynamicFilteringEnabled": true    
+                        }
+                    }
+                }
+            }
         },
         "SearchEngines": {
             "PreventInstalls": false,
