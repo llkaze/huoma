@@ -132,7 +132,7 @@
         "content": "filters",
         "group": "annoyances",
         "parent": "Fuck Fuckadblock",
-        "title": "Fuck Fuckadblock - Anti-adblock bypass",
+        "title": "Fuck Fuckadblock – Anti-adblock bypass",
         "contentURL": [
                 "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt?_=raw"
         ],
@@ -142,7 +142,7 @@
         "content": "filters",
         "group": "annoyances",
         "parent": "Fuck Fuckadblock",
-        "title": "Fuck Fuckadblock - Mining",
+        "title": "Fuck Fuckadblock – Mining",
         "contentURL": [
             "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt?_=raw"
         ],
