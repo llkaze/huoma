@@ -128,44 +128,44 @@
 		],
 		"supportURL": "https://github.com/uBlockOrigin/uAssets"
 	},
-    "fuckfuckadblock-anti-adblock-bypass": {
-        "content": "filters",
-        "group": "annoyances",
-        "parent": "Fuck Fuckadblock",
-        "title": "Fuck Fuckadblock – Anti-adblock bypass",
-        "contentURL": [
-                "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt?_=raw"
-        ],
-        "supportURL": "https://github.com/bogachenko/fuckfuckadblock"
-    },
-    "fuckfuckadblock-mining": {
-        "content": "filters",
-        "group": "annoyances",
-        "parent": "Fuck Fuckadblock",
-        "title": "Fuck Fuckadblock – Mining",
-        "contentURL": [
-            "https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt?_=raw"
-        ],
-        "supportURL": "https://github.com/bogachenko/fuckfuckadblock"
-    },
-    "LegitimateURLShortener": {
-        "content": "filters",
-        "group": "annoyances",
-        "title": "➗ Actually Legitimate URL Shortener Tool",
-        "contentURL": [
-            "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"
-        ],
-        "supportURL": "https://github.com/DandelionSprout/adfilt"
-    },
-    "pup-filter": {
-        "content": "filters",
-        "group": "malware",
-        "title": "PUP Domains Blocklist",
-        "contentURL": [
-            "https://malware-filter.gitlab.io/pup-filter/pup-filter.txt"
-        ],
-        "supportURL": "https://gitlab.com/malware-filter/pup-filter"
-    },
+    	"fuckfuckadblock-anti-adblock-bypass": {
+        	"content": "filters",
+        	"group": "annoyances",
+        	"parent": "Fuck Fuckadblock",
+        	"title": "Fuck Fuckadblock – Anti-adblock bypass",
+        	"contentURL": [
+                	"https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt?_=raw"
+        	],
+        	"supportURL": "https://github.com/bogachenko/fuckfuckadblock"
+    	},
+    	"fuckfuckadblock-mining": {
+        	"content": "filters",
+        	"group": "annoyances",
+        	"parent": "Fuck Fuckadblock",
+        	"title": "Fuck Fuckadblock – Mining",
+        	"contentURL": [
+            		"https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock-mining.txt?_=raw"
+        	],
+        	"supportURL": "https://github.com/bogachenko/fuckfuckadblock"
+    	},
+    	"LegitimateURLShortener": {
+        	"content": "filters",
+        	"group": "annoyances",
+        	"title": "➗ Actually Legitimate URL Shortener Tool",
+        	"contentURL": [
+            		"https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt"
+        	],
+        	"supportURL": "https://github.com/DandelionSprout/adfilt"
+    	},
+    	"pup-filter": {
+        	"content": "filters",
+        	"group": "malware",
+        	"title": "PUP Domains Blocklist",
+        	"contentURL": [
+            		"https://malware-filter.gitlab.io/pup-filter/pup-filter.txt"
+        	],
+        	"supportURL": "https://gitlab.com/malware-filter/pup-filter"
+    	},
 	"adguard-generic": {
 		"content": "filters",
 		"group": "ads",
