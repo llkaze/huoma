@@ -4,7 +4,6 @@
 		"updateAfter": 13,
 		"contentURL": [
 			"https://raw.githubusercontent.com/llkaze/huoma/main/ubo/assets.json",
-			"assets/assets.json"
 		],
 		"cdnURLs": [
 			"https://ublockorigin.github.io/uAssetsCDN/ublock/assets.json",
